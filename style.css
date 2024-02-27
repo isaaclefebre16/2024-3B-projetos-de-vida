@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&display=swap');
+
+
+:root{
+    --marrom-oscuro: #867070;
+    --marrom-claro: #D5B4B4;
+    --marrom-claro: #E4D0D0;
+    --marrom-claro: #F5EBEB;
+    --font-titulo: "Anta", sans-serif;
+    --font-texto: "Micro 5", sans-serif;
+
+}
+
+body{
+    background-color: var(--marrom-oscuro);
+}
