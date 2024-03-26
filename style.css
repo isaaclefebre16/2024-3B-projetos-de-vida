@@ -66,12 +66,37 @@ body{
     border-radius: 0 0 40px 40px;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--marrom-dois);
     border-bottom: var(--marrom-claro);
 }
 
-@media screen and (win-width: 768px) {
+.abas-textos{
+    background-color: var(--marrom-tres);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: rgb(95, 88, 88);
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
     .botoes{
         display: flex;
     }
@@ -82,3 +107,4 @@ body{
         border-radius: 0 40px 0 0;
     }
 }
+
