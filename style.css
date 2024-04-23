@@ -66,18 +66,16 @@ body{
     border-radius: 0 0 40px 40px;
 }
 
-.botao.ativo{
-    background-color: var(--marrom-dois);
-    border-bottom: var(--marrom-claro);
+.botao.ativo{.contador{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.abas-textos{
-    background-color: var(--marrom-tres);
-    padding: 40px;
-    border-radius: 0 0 40px 40px;
+.contador-digito{
+    padding: 0 16px;
 }
 
-.aba-conteudo.ativo{
     display: block;
 }
 
@@ -94,6 +92,30 @@ body{
     text-align: center;
     color: rgb(95, 88, 88);
     text-transform: uppercase;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+
+.contador-digito-texto{
+    color: var(--marrom-claro);
+    font-size: 20px;
+    margin: 0;
+    
 }
 
 @media screen and (min-width: 768px) {
