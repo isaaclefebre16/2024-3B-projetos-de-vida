@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&display=swap');
 
 
-:root{
+:root {
     --marrom-oscuro: #867070;
     --marrom-claro: #D5B4B4;
     --marrom-dois: #E4D0D0;
@@ -12,13 +12,13 @@
 
 }
 
-body{
+body {
     background-color: var(--marrom-oscuro);
     color: var(--marrom-claro);
     font-family: var(--font-texto);
 }
 
-.conteudo-principal{
+.conteudo-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,18 +29,20 @@ body{
 
 }
 
-.titulo-pricipal{
+.titulo-pricipal {
     text-align: left;
     width: 100%;
     font-size: 36px;
 }
-.titulo-pricipal span{
+
+.titulo-pricipal span {
     color: var(--marrom-oscuro);
 }
 
-.botao{
+.botao {
     font-family: var(--font-texto);
     font-size: 20px;
+    font-style: normal;
     background-color: var(--marrom-claro);
     color: black;
     display: flex;
@@ -54,79 +56,82 @@ body{
     border-top: none;
 
 }
+
 .botoes {
     display: block;
 }
 
-.botao:first-child{
+.botao:first-child {
     border-radius: 40px 40px 0 0;
 }
 
-.botao:last-child{
+.botao:last-child {
     border-radius: 0 0 40px 40px;
 }
 
-.botao.ativo{.contador{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+.botao.ativo {
+    .contador {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-.contador-digito{
-    padding: 0 16px;
-}
+    .contador-digito {
+        padding: 0 16px;
+    }
 
     display: block;
 }
 
-.aba-conteudo{
+.aba-conteudo {
     display: none;
 }
 
-.aba-conteudo-titulo-principal{
+.aba-conteudo-titulo-principal {
     font-size: 28px;
     text-align: center;
 }
 
-.aba-conteudo-titulo-secundario{
+.aba-conteudo-titulo-secundario {
     text-align: center;
     color: rgb(95, 88, 88);
     text-transform: uppercase;
 }
 
-.contador{
+.contador {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.contador-digito{
+.contador-digito {
     padding: 0 16px;
     text-align: center;
     min-width: 100px;
 }
 
-.contador-digito-numero{
+.contador-digito-numero {
     font-size: 80px;
     margin: 0;
 }
 
-.contador-digito-texto{
+.contador-digito-texto {
     color: var(--marrom-claro);
     font-size: 20px;
     margin: 0;
-    
+
 }
 
 @media screen and (min-width: 768px) {
-    .botoes{
+    .botoes {
         display: flex;
     }
-    .botao:first-child{
+
+    .botao:first-child {
         border-radius: 40px 0 0 0;
     }
-    .botao:last-child{
+
+    .botao:last-child {
         border-radius: 0 40px 0 0;
     }
 }
-
