@@ -1,137 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
-
-:root {
-    --marrom-oscuro: #867070;
-    --marrom-claro: #D5B4B4;
-    --marrom-dois: #E4D0D0;
-    --marrom-tres: #F5EBEB;
-    --preto: #000000;
-    --font-titulo: "Anta", sans-serif;
-    --font-texto: "Micro 5", sans-serif;
-
-}
-
-body {
-    background-color: var(--marrom-oscuro);
-    color: var(--marrom-claro);
-    font-family: var(--font-texto);
-}
-
-.conteudo-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-
-}
-
-.titulo-pricipal {
-    text-align: left;
-    width: 100%;
-    font-size: 36px;
-}
-
-.titulo-pricipal span {
-    color: var(--marrom-oscuro);
-}
-
-.botao {
-    font-family: var(--font-texto);
-    font-size: 20px;
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
     font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul-forte: #1010f4;
+    --azul-claro: #1163f1;
+    --azul-oscuro: #080345;
+    --verde-forte: #25f21e;
+    --verde-oscuro: #0a4a08;
+    --amarelo: #ebf21e;
+    --vermelho: #f2331e;
+    --preto: #010801;
+}
+
+body{
+    background-color: #0a4a08;
+    color: #25f21e;
+    font-family: var(--azul-claro)
+}
+
+.titulo-principal{
+    font-family: var(--azul-forte);
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.img-cadeado{
+    width: 5%;
+}
+
+.conteudo-senha{
     background-color: var(--marrom-claro);
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    width: 100%;
-    border-bottom: 4px solid var(--preto);
-    border-left: 4px solid var(--preto);
-    border-right: 4px solid var(--preto);
-    border-top: none;
-
-}
-
-.botoes {
-    display: block;
-}
-
-.botao:first-child {
-    border-radius: 40px 40px 0 0;
-}
-
-.botao:last-child {
-    border-radius: 0 0 40px 40px;
-}
-
-.botao.ativo {
-    .contador {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .contador-digito {
-        padding: 0 16px;
-    }
-
-    display: block;
-}
-
-.aba-conteudo {
-    display: none;
-}
-
-.aba-conteudo-titulo-principal {
-    font-size: 28px;
-    text-align: center;
-}
-
-.aba-conteudo-titulo-secundario {
-    text-align: center;
-    color: rgb(95, 88, 88);
-    text-transform: uppercase;
-}
-
-.contador {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contador-digito {
-    padding: 0 16px;
-    text-align: center;
-    min-width: 100px;
-}
-
-.contador-digito-numero {
-    font-size: 80px;
-    margin: 0;
-}
-
-.contador-digito-texto {
-    color: var(--marrom-claro);
-    font-size: 20px;
-    margin: 0;
-
-}
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
+    padding: 24px;
+    color: var(--cinza);
+    font-family:var(--font-texto);
+    font-size: 40px;
 }
