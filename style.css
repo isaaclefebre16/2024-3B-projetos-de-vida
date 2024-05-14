@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poetsen+One&display=swap');
 
 .poetsen-one-regular {
     font-family: "Poetsen One", sans-serif;
@@ -15,21 +15,21 @@
     --azul-forte: #1010f4;
     --azul-claro: #1163f1;
     --azul-oscuro: #080345;
-    --verde-forte: #25f21e;
-    --verde-oscuro: #0a4a08;
+    --verde-forte: #aaf39a;
+    --verde-oscuro: #0d690a;
     --amarelo: #ebf21e;
-    --vermelho: #f2331e;
-    --preto: #010801;
+    --texto-titulo: "Poetsen One", sans-serif;
+    --texto-corpo:"Dancing Script", cursive;
 }
 
 body{
     background-color: #0a4a08;
-    color: #25f21e;
-    font-family: var(--azul-claro)
+    color: #aaf39a;
+    font-family: var(--texto-corpo)
 }
 
 .titulo-principal{
-    font-family: var(--azul-forte);
+    font-family: var(--texto-titulo);
 }
 
 .conteudo-titulo{
